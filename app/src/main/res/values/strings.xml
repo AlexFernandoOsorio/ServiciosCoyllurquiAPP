@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">MuniCoyllurqui APP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_acount">Mi Cuenta</string>
+    <string name="menu_infoMuni">Conoce tu Municipalidad</string>
+    <string name="menu_fanpage">Fan Page</string>
+    <string name="menu_politica">Politica de Privacidad</string>
+    <string name="menu_reportes">Reportes y Denuncias</string>
+    <string name="menu_closeSesion">Cerrar Sesion</string>
+    <string name="menu_Comunicados">Comunicados</string>
+    <string name="menu_Pagos">Pagos en Linea</string>
+    <string name="menu_directorio">Directorio Telefonico</string>
+
+    <string name="title_activity_splash_s">SplashSActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Strings para actividad del login -->
+    <string name="str_eslogan">Unidos, Si Podemos, Coyllurqui Orgánico</string>
+    <string name="str_email">Email</string>
+    <string name="str_email_hint">Ingrese su Email</string>
+    <string name="str_contraseña">Contraseña</string>
+    <string name="str_contraseña_hint">Ingrese su Contraseña</string>
+    <string name="str_button">INICIAR SESIÓN</string>
+    <string name="str_register">Registrese</string>
+    <string name="str_recoverpass">Recupera tu Contraseña</string>
+
+    <!-- Strings para actividad de crear usuario -->
+    <string name="account_dniUsuario">Nro. DNI :</string>
+    <string name="account_nickname">Nickname :</string>
+    <string name="account_nombres">Nombres :</string>
+    <string name="account_apellidos">Apellidos :</string>
+    <string name="account_correo">Correo :</string>
+    <string name="account_skype">Skype :</string>
+    <string name="account_direccion">Dirección :</string>
+    <string name="account_edad">Edad</string>
+    <string name="account_telefono">Telefono :</string>
+    <string name="account_celular">Celular :</string>
+    <string name="account_genero">Genero :</string>
+    <string name="account_intereses">Intereses</string>
+    <string name="account_estado">Estado :</string>
+    <string name="account_ubicacion">Ubicación </string>
+
+    <!-- String para fragment de registros -->
+    <string name="reg_dniUsuario">Ingrese su DNI</string>
+    <string name="reg_codUsuario">Ingrese su Codigo Universitario</string>
+    <string name="reg_nombres">Ingrese sus Nombres</string>
+    <string name="reg_apellidos">Ingrese sus Apellidos</string>
+    <string name="reg_correo">Ingrese su Correo</string>
+    <string name="reg_tipousuario">Que tipo de Usuario es ?</string>
+    <string name="reg_direccion">Ingrese su Dirección</string>
+    <string name="reg_contraseña">Ingrese su Contraseña</string>
+    <string name="reg_contraseñac">Confirme su Contraseña</string>
+    <string name="reg_edad">Ingrese su Edad</string>
+    <string name="reg_telefono">Ingrese su Telefono (Opcional)</string>
+    <string name="reg_celular">Ingrese su Celular</string>
+    <string name="reg_genero">Ingrese su Genero</string>
+    <string name="reg_intereses">Ingrese sus Intereses</string>
+    <string name="reg_contraseñarc">Ingrese su nueva Contraseña</string>
+    <string name="reg_contraseñarcc">Repita su nueva Contraseña</string>
+    <string name="reg_mensajeRecuperaciontitle"><u>Reseteo de contraseña</u></string>
+    <string name="reg_mensajeRecuperacion">Estimado Usuario, ingrese su correo asociado a su cuenta, usted recibira un email para realizar el cambio respectivo.</string>
+
+    <string name="dialog_libroconfirm">Confirmación de Petición, puede ver su Petición en el apartado de Peticiones y Prestamos</string>
+    <string name="dialog_librodelete">Esta seguro de eliminar este libro ?</string>
+    <string name="dialog_categoriadelete">Esta seguro de eliminar esta categoria ?</string>
+    <string name="dialog_comentariodelete">Esta seguro de eliminar este comentario ?</string>
+
+    <!-- Strings para dialog de felicitaciones -->
+    <string name="dialog_happycreate">Felicitaciones, Usuario Creado Correctamente, verifique su correo.</string>
+    <string name="dialog_happyupdate">Felicitaciones, Usuario Recuperado Correctamente.</string>
+    <string name="dialog_emailverify">Lamentablemente su correo no esta verificado o su vigencia caduco, desea verificarlo?</string>
+    <string name="dialog_user_messagge_suspendido">Lamentablemente su cuenta ha sido suspendida, no podra solicitar un libro.</string>
+    <string name="dialog_user_messagge_plan">Estimado usuario, usted acaba de enviar una petición de prestamo, por lo cual no podra solicitar nuevos libros,si desea solicitar nuevos libros libere su petición anterior.</string>
+
+    <!-- String para dialog de agregar libros -->
+    <string name="regdiag_titulo">Titulo Libro</string>
+    <string name="regdiag_autor">Autor Libro</string>
+    <string name="regdiag_portada">Portada del Libro</string>
+    <string name="regdiag_portadatxt">Opcional</string>
+    <string name="regdiag_descripcion">Nota Libro </string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings para permisos request-->
+    <string name="txt_requestcall">Necesita otorgar permisos para acceder a llamadas</string>
+    <string name="txt_requestcamera">Necesita otorgar permisos para acceder a la camara</string>
+    <string name="txt_requeststorage">Necesita otorgar permisos para acceder a su memoria externa</string>
+
+    <!-- Strings para fragment reportes -->
+    <string name="repo_usuario">Estimado Coyllurquino</string>
+    <string name="repo_usuariodes">Reporte hechos que no contribuyan al Orden Publico</string>
+    <string name="repo_categoria">Categoria</string>
+    <string name="repo_descripcion">Ingrese su Email</string>
+    <string name="repo_ubicacion">Contraseña</string>
+    <string name="repo_incidencia">Ingrese su Contraseña</string>
+    <string name="repo_buton_incidencia">INICIAR SESIÓN</string>
+    <string name="repo_fotoelegir">Registrese</string>
+    <string name="repo_foto">Registrese</string>
+    <string name="repo_butenviar">Recupera tu Contraseña</string>
+
+    <!-- Fragment Acerca de Nosotros -->
+    <string name="acn_textoinit">Somos una empresa de propiedad municipal, que presta servicios de saneamiento básico con estándares de calidad internacional, para contribuir con la mejora de la calidad de vida de la población y del cuidado del medio ambiente.</string>
+    <string name="acn_agenda">Directorio Telefónico</string>
+    <string name="acn_agendades">La Municipalidad Distrital de Coyllurqui pone a disposición de la población nuestra agenda telefonica.</string>
+    <string name="acn_lugares">Lugares Importantes</string>
+    <string name="acn_lugaresdes">Conozca los lugares de mayor influencia en nuestro distrito gracias a nuestra extension de Google Maps (Habilite el GPS de su móvil)</string>
+    <string name="acn_pagos">Pagos en linea</string>
+    <string name="acn_pagosdes">EPS SEDACUSCO quiere simplificarte las cosas. Por eso hemos dispuesto formas de pago en línea gracias a nuestras entidades asociadas.</string>
+</resources>

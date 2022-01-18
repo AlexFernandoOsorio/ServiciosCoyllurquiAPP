@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorwhite">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colordialogagrgarcategoria">
+        <ImageView
+            android:src="@drawable/ic_menu_account"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desea Agregar una nueva imagen?"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/dialog_opciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/photo_radiocamara"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:checked="false"
+                    android:layout_marginLeft="10dp"
+                    android:text="Camara :"
+                    android:theme="@style/MyRadioButton"/>
+                <RadioButton
+                    android:id="@+id/photo_radiomemoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="Memoria Interna :"
+                    android:theme="@style/MyRadioButton"/>
+                <RadioButton
+                    android:id="@+id/photo_radiocancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:text="Cancel :"
+                    android:theme="@style/MyRadioButton"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

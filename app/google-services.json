@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "632938481554",
+    "firebase_url": "https://coyllurqui-app.firebaseio.com",
+    "project_id": "coyllurqui-app",
+    "storage_bucket": "coyllurqui-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632938481554:android:c127b7880cb42ebf46a34b",
+        "android_client_info": {
+          "package_name": "com.municoyllur.servicioscoyllurquiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632938481554-s6vtneg63kgq6l2i4q6st96tbfgksmbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3a_GAqKtcZDTgPz-qEroMkp6xUegfTzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632938481554-s6vtneg63kgq6l2i4q6st96tbfgksmbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

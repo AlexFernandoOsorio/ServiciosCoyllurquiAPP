@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.municoyllur.servicioscoyllurquiapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.municoyllur.servicioscoyllurquiapp.Fragments.FragmentMiCuenta"
+        android:label="@string/menu_acount"
+        tools:layout="@layout/fragment_mi_cuenta" />
+
+    <fragment
+        android:id="@+id/nav_reportes"
+        android:name="com.municoyllur.servicioscoyllurquiapp.Fragments.FragmentReportes"
+        android:label="@string/menu_reportes"
+        tools:layout="@layout/fragment_reportes" />
+
+    <fragment
+        android:id="@+id/nav_nosotros"
+        android:name="com.municoyllur.servicioscoyllurquiapp.Fragments.FragmentConoceMuni"
+        android:label="@string/menu_infoMuni"
+        tools:layout="@layout/fragment_comunicados" />
+
+    <fragment
+        android:id="@+id/nav_Directorio"
+        android:name="com.municoyllur.servicioscoyllurquiapp.Fragments.FragmentTelefonico"
+        android:label="@string/menu_Comunicados"
+        tools:layout="@layout/fragment_comunicados" />
+    <fragment
+        android:id="@+id/nav_comunicados"
+        android:name="com.municoyllur.servicioscoyllurquiapp.Fragments.FragmentComunicados"
+        android:label="@string/menu_Comunicados"
+        tools:layout="@layout/fragment_comunicados" />
+
+</navigation>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_inicio"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_account"
+            android:title="@string/menu_acount" />
+        <item
+            android:id="@+id/nav_nosotros"
+            android:icon="@drawable/ic_menu_listuser"
+            android:title="@string/menu_infoMuni" />
+        <item
+            android:id="@+id/nav_comunicados"
+            android:icon="@drawable/ic_menu_notifications"
+            android:title="@string/menu_Comunicados" />
+        <item
+            android:id="@+id/nav_reportes"
+            android:icon="@drawable/ic_comment"
+            android:title="@string/menu_reportes" />
+        <item
+            android:id="@+id/nav_Directorio"
+            android:icon="@drawable/ic_menu_book"
+            android:title="@string/menu_directorio" />
+        <item
+            android:id="@+id/nav_fanpage"
+            android:icon="@drawable/ic_menu_fanpage"
+            android:title="@string/menu_fanpage" />
+        <item
+            android:id="@+id/nav_politicas"
+            android:icon="@drawable/ic_menu_notifications"
+            android:title="@string/menu_politica" />
+        <item
+            android:id="@+id/nav_closesesion"
+            android:icon="@drawable/ic_menu_delete"
+            android:title="@string/menu_closeSesion" />
+    </group>
+</menu>

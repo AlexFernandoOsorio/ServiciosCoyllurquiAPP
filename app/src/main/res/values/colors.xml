@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#0288d1</color>
+    <color name="purple_700">#005b9f</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#0288d1</color>
+    <color name="colorPrimaryDark">#005b9f</color>
+
+    <color name="colorPrimaryStatusBar">#024546</color>
+    <color name="colorAccent">#fc8800</color>
+    <color name="colorLight">#4b91c2</color>
+    <color name="colorLight2">#5990b3</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="cardColor">#ffffff</color>
+    <color name="textcardColor">#3f3f3f</color>
+
+    <color name="colorPrimaryDark2">#3F51B5</color>
+    <color name="colordialog">#303F9F</color>
+    <color name="colortexthint">#303F9F</color>
+    <color name="colortexblack">#000000</color>
+    <color name="colorbackground">#FFFFFF</color>
+    <color name="colorbackgroundlogin">#d0e3f5</color>
+    <color name="colorloginbox">#408ccf</color>
+    <color name="colorlogintext">#777d83</color>
+    <color name="coloryellow">#F49810</color>
+    <color name="colorbluelight">#00BCD4</color>
+    <color name="colorradiobn">#45494d</color>
+    <color name="colorradioba">#de23cb</color>
+    <color name="colorradiotext">#04b770</color>
+
+    <color name="coloremailregistro">#0d7b4f</color>
+    <color name="colorbuttonregistro">#04b770</color>
+    <color name="colorbuttonrecupera">#efeb0a</color>
+    <color name="colordialogback">#45494d</color>
+    <color name="colordialogagrgarlibro">#7323b4</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="colorDividerColor">#B6B6B6</color>
+    <color name="colorDividerColor2">#f1f1f1</color>
+    <color name="colorsearch">#f1f1f1</color>
+    <color name="colordialogagrgarcategoria">#2f5fa3</color>
+    <color name="colorempty">#2f5fa3</color>
+
+    <color name="colorimgtext1">#05897c</color>
+    <color name="colorimgtext2">#795548</color>
+    <color name="colorimgtext3">#E53935</color>
+    <color name="colorimgtext4">#1E88E5</color>
+    <color name="colorimgtext5">#D81B60</color>
+    <color name="colorimgtext6">#8E24AA</color>
+    <color name="colorimgtext7">#5E35B1</color>
+    <color name="colorimgtext8">#3949AB</color>
+    <color name="colorimgtext9">#546E7A</color>
+
+    <color name="colorcheckindigo">#8E24AA</color>
+    <color name="colorcheckverde">#1d8632</color>
+    <color name="colorcheckamarillo">#ecd109</color>
+    <color name="colorcheckrojo">#ac0a25</color>
+
+    <color name="colorsolicite">#319e9f</color>
+    <color name="colorsolicitan">#793cbe</color>
+    <color name="colordialogtransfer">#6a676e</color>
+
+</resources>
